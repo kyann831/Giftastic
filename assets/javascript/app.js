@@ -75,16 +75,24 @@ $(document).ready(function() {
         }
     }
 
-    $("add-show").on("click", function(event) {
+    $("#add-show").on("click", function(event) {
+        
         event.preventDefault();
 
-        var topics =$("#show-input").val().trim();
+        var topic = $("#show-input").val().trim();
 
-        topics.push(topics);
+        topics.push(topic);
 
         renderButtons();
+    
+    
     });
 
     $(document).on("click", ".show-btn", displayShowInfo);
     renderButtons();
+
+
+    
+
+    
 });
