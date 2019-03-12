@@ -1,0 +1,1 @@
+Giftastic lets you press a button and enjoy giphys of you favorite shows. Search and see if any of your favorites are already on the list, if not type in your favorite in the "add a show you like" search box then click "add your show" to enjoy the results!
